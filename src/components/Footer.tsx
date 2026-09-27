@@ -122,15 +122,24 @@ export const Footer: React.FC = () => {
           <div>
             © 2023–2026 Department of Materials Science &amp; Engineering, University of Moratuwa.
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 text-xs">
             <a
-              href="https://github.com/premakumarahps"
+              href="https://github.com/premakumarahps/smart-breeze-automated-fan"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-slate-400 hover:text-teal-300 transition-colors flex items-center gap-1"
+              className="text-slate-400 hover:text-white transition-colors flex items-center gap-1"
             >
+              <span>GitHub Repository</span>
               <ExternalLink className="w-3.5 h-3.5" />
-              <span>Sadun Premakumara GitHub</span>
+            </a>
+            <a
+              href="https://premakumarahps.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-400 hover:text-white transition-colors flex items-center gap-1"
+            >
+              <span>Main Portfolio</span>
+              <ExternalLink className="w-3.5 h-3.5" />
             </a>
           </div>
         </div>
